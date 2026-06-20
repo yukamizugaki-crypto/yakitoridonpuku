@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="やきとり呑福は埼玉県熊谷市にある大衆居酒屋です。飲んで安心料金、晩酌セット1,100円！グループでもお一人様でも温かくお迎えします。">
+  <title>やきとり 呑福 | 熊谷市の大衆居酒屋</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-area">
+        <div class="logo-text">
+          <span class="logo-main">やきとり 呑福</span>
+          <span class="logo-sub">熊谷の大衆居酒屋</span>
+        </div>
+      </div>
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html" class="nav-link active">ホーム</a>
+        <a href="menu.html" class="nav-link">メニュー</a>
+        <a href="#info" class="nav-link">店舗情報</a>
+        <a href="#access" class="nav-link">アクセス</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="hero">
+    <div class="hero-bg-slides">
+      <div class="hero-slide active" style="background-image: url('img/HERO1.png');"></div>
+      <div class="hero-slide" style="background-image: url('img/HERO2.png');"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+
+      <h1 class="hero-title">やきとり<br><span class="hero-title-accent">呑&nbsp;&nbsp;福</span></h1>
+
+      <div class="hero-buttons">
+        <a href="tel:048-522-6424" class="btn btn-primary" id="hero-tel-btn">
+          今すぐ予約する
+        </a>
+        <a href="menu.html" class="btn btn-outline" id="hero-menu-btn">メニューを見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- おすすめ 晩酌セット -->
+  <section class="banshaku-section" id="banshaku">
+    <div class="container">
+      <div class="section-badge">一番人気</div>
+      <h2 class="section-title">おすすめ！晩酌セット</h2>
+      <div class="banshaku-card">
+        <div class="banshaku-photo">
+          <img src="img/晩酌セット.png" alt="やきとり呑福の晩酌セット" class="banshaku-img">
+        </div>
+        <div class="banshaku-detail">
+          <div class="banshaku-badge">お得なセット</div>
+          <h3 class="banshaku-name">晩酌セット</h3>
+          <div class="banshaku-contents">
+            <div class="banshaku-item">
+              <div class="item-text">
+                <strong>やきとり 3本</strong>
+                <span>（ねぎま・かしら・皮）</span>
+              </div>
+            </div>
+            <div class="banshaku-plus">＋</div>
+            <div class="banshaku-item">
+              <div class="item-text">
+                <strong>日替わり小鉢</strong>
+                <span>毎日違う一品をどうぞ</span>
+              </div>
+            </div>
+            <div class="banshaku-plus">＋</div>
+            <div class="banshaku-item">
+              <div class="item-text">
+                <strong>お好きなドリンク 1杯</strong>
+                <span>生ビール・瓶ビール中瓶・日本酒2合・サワー からお選びください</span>
+              </div>
+            </div>
+          </div>
+          <div class="banshaku-price">
+            <span class="price-label">合計</span>
+            <span class="price-value">1,100<span class="price-en">円</span></span>
+            <span class="price-tax">（税込）</span>
+          </div>
+          <p class="banshaku-price-notice">※お値段は変更になる場合がございます。詳しくはお問い合わせください。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- メッセージ -->
+  <section class="message-section">
+    <div class="container">
+      <div class="message-grid">
+        <div class="message-item">
+          <h3>大衆料金で安心</h3>
+          <p>飲んで安心料金、大衆料金!!</p>
+          <p>お財布に優しい価格で、たっぷりお楽しみください。</p>
+        </div>
+        <div class="message-item">
+          <h3>アットホームな雰囲気</h3>
+          <p>賑やかで温かみあふれる店内。</p>
+          <p>グループでも、お一人様でも大歓迎！</p>
+        </div>
+        <div class="message-item">
+          <h3>地域に根ざした信頼</h3>
+          <p>長年、熊谷の地域に根ざしてきた</p>
+          <p>信頼と実績のお店です。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 定番メニュー紹介 -->
+  <section class="menu-preview-section" id="menu-preview">
+    <div class="container">
+      <h2 class="section-title">定番メニュー</h2>
+      <p class="section-desc">焼きたての串から一品料理まで、豊富なメニューをご用意しています</p>
+      <!-- カルーセルスライダー -->
+      <div class="menu-carousel">
+        <div class="carousel-inner" id="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/menu1.webp" alt="定番メニュー 焼き物" class="carousel-img">
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu2.png" alt="定番メニュー 一品料理" class="carousel-img">
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu3.png" alt="定番メニュー 煮物" class="carousel-img">
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu4.png" alt="定番メニュー 鍋物" class="carousel-img">
+          </div>
+        </div>
+        
+
+        
+        <!-- インジケータードット -->
+        <div class="carousel-dots" id="carousel-dots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+          <span class="dot" data-index="3"></span>
+        </div>
+      </div>
+
+      <div class="menu-more-area">
+        <a href="menu.html" class="btn btn-red" id="menu-more-btn">詳しくはこちら</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 予約案内 -->
+  <section class="reserve-section">
+    <div class="container">
+      <div class="reserve-box">
+        <h2 class="reserve-title">ご予約はお電話から</h2>
+        <p class="reserve-desc">お気軽にお電話ください。お待ちしております！</p>
+        <a href="tel:048-522-6424" class="reserve-tel" id="reserve-tel-link">
+          <span class="tel-number">048-522-6424</span>
+        </a>
+        <p class="reserve-note">営業時間内にお電話ください（17:00〜23:00）</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 店舗情報 -->
+  <section class="info-section" id="info">
+    <div class="container">
+      <h2 class="section-title">店舗情報</h2>
+      <div class="info-table-wrap">
+        <table class="info-table">
+          <tbody>
+            <tr>
+              <th>店名</th>
+              <td>やきとり 呑福</td>
+            </tr>
+            <tr>
+              <th>住所</th>
+              <td>〒360-0036<br>埼玉県熊谷市桜木町１丁目１６<br>宮前ビル</td>
+            </tr>
+            <tr>
+              <th>電話番号</th>
+              <td><a href="tel:048-522-6424" class="info-tel-link">048-522-6424</a></td>
+            </tr>
+            <tr>
+              <th>営業時間</th>
+              <td>
+                <strong class="time-big">17:00 〜 23:00</strong>
+              </td>
+            </tr>
+            <tr>
+              <th>定休日</th>
+              <td><strong>日曜日・祝日</strong></td>
+            </tr>
+            <tr>
+              <th>ご予約</th>
+              <td>お電話にてお受けしております</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス -->
+  <section class="access-section" id="access">
+    <div class="container">
+      <h2 class="section-title">アクセス</h2>
+      <p class="access-address">埼玉県熊谷市桜木町１丁目１６ 宮前ビル</p>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7!2d139.3867!3d36.1473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x27535976016927d4!2z44KE44GN44Go44KK5ZGr56+U!5e0!3m2!1sja!2sjp!4v1700000000000!5m2!1sja!2sjp"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="やきとり呑福 地図">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span>やきとり 呑福</span>
+      </div>
+      <div class="footer-info">
+        <p>〒360-0036 埼玉県熊谷市桜木町１丁目１６ 宮前ビル</p>
+        <p>TEL: <a href="tel:048-522-6424">048-522-6424</a></p>
+        <p>営業時間：17:00〜23:00　定休日：日曜日・祝日</p>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html">ホーム</a>
+        <a href="menu.html">メニュー</a>
+        <a href="#info">店舗情報</a>
+        <a href="#access">アクセス</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2026 やきとり 呑福 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
